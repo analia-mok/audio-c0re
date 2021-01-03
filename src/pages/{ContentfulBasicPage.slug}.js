@@ -1,14 +1,17 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import resolveRichText from '../utils/resolveRichText';
 
 export default function ContentfulBasicPage({ data }) {
   const page = data.basicPage;
-  const bodyContent = JSON.parse(page.body.raw);
-  console.log(bodyContent.content);
+  const bodyField = page.body;
 
   return (
     <article>
-      <h1>Hi I'm a page</h1>
+      <h1>{page.title}</h1>
+      <div>
+        {bodyField && resolveRichText(bodyField)}
+      </div>
     </article>
   );
 }
