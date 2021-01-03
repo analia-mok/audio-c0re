@@ -5,6 +5,7 @@ dotenv.config({ path: '.env' });
 module.exports = {
   siteMetadata: {
     title: "AudioC0re",
+    siteUrl: "https://audioc0reanaliamok.gtsb.io"
   },
   plugins: [
     {
