@@ -1,48 +1,25 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# AudioC0re - \#100DaysOfGatsby 2021
 
-## 🚀 Quick start
+Project repo for [100DaysOfGatsby](https://www.gatsbyjs.com/blog/100days/) Challenge
 
-1.  **Create a Gatsby site.**
+__Preview Link:__ https://audioc0reanaliamok.gtsb.io/
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## Changelog
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+This repo is using tagged releases to keep track of progress made for each challenge/sprint.
 
-2.  **Start developing.**
+### v1.x
 
-    Navigate into your new site’s directory and start it up.
+[Challenge 1 Briefing](https://www.gatsbyjs.com/blog/100days-challenge-1)
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+* Sets up basic Contentful integration with Gatsby.
+  * Includes sourcing setup for a `Basic Page` and `Location` content type.
+  * All content is sourced from Contentful.
+* Contains no styling or style system (for now. Will leave that for future sprints)
 
-3.  **Open the code and start customizing!**
+#### Resources Used
 
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+* [File System Route API Documentation](https://www.gatsbyjs.com/docs/reference/routing/creating-routes/#using-the-file-system-route-api)
+* [Official Contentful Source Plugin Documentation](https://www.gatsbyjs.com/plugins/gatsby-source-contentful/?=contentful)
+  * Most notably the section related to rendering [Contentful's Rich Text Fields](https://www.gatsbyjs.com/plugins/gatsby-source-contentful/?=contentful#rendering).
+  
